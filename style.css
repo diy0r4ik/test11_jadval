@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    overflow: hidden;
+    background-color: lightsalmon;
+  }
+  .container {
+    width: 500px;
+    height: 550px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 50px;
+
+  }
+  
+  fieldset {
+    width: 400px;
+    height: auto;
+    margin: 100px auto;
+    padding: 10px;
+    
+  }
+  
+  input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    outline: none;
+    border-radius: 100px;
+    transition: 0.5s;
+    background-color: #e6e6e6d8;
+  }
+  textarea{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    resize: none;
+    font-family: sans-serif;
+    color: black;
+    border-radius: 20px;
+    transition: 0.5s;
+    background-color: #e6e6e6d8;
+  }
+  
+  input:focus {
+    border: 2px solid green;
+  }
+  .form-btn {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-radius: 50px;
+    background-color: lightsalmon;
+    color: white;
+    border-bottom: 4px solid rgb(226, 113, 7);
+    transition: 0.3s all;
+  }
+  .form-btn:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    transform: scale(0.99);
+  }
+  .form-btn:focus{
+    outline: none;
+    border: 0;
+  }
+  
+  fieldset{
+    border: 0;
+  }
+
+  input{
+    border: none;
+  }
+  textarea{
+    border: none;
+  }
+  textarea:focus{
+    border: none;
+    outline: none;
+  }
+  input:focus{
+    border: none;
+    outline: none;
+  }
+
+  button{
+    border: none;
+  }
+
+  h1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-bottom: 25px;
+    color: rgb(147, 147, 147);
+    font-weight: 500;
+  }
+
+
+  /* ====================================== */
+
+
+  .circle{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 455px;
+    bottom: 208px;
+  }
+
+  .white-circle{
+    width: 50px;
+    height: 20px;
+    background: white;
+    position: relative;
+    left: 480px;
+    bottom: 228px;
+    border-radius: 40px;
+  }
+
+  .orange-circle{
+    width: 50px;
+    height: 20px;
+    background: lightsalmon;
+    position: relative;
+    left: 490px;
+    bottom: 228px;
+    border-radius: 40px;
+  }
+
+  .white-circle-two{
+    width: 50px;
+    height: 20px;
+    background: white;
+    position: relative;
+    left: 488px;
+    bottom: 228px;
+    border-radius: 40px;
+  }
+
+  .white-circle-right{
+    width: 50px;
+    height: 20px;
+    background: white;
+    position: relative;
+    left: 995px;
+    bottom: 680px;
+    border-radius: 40px;
+  }
+  .orange-circle-right{
+    width: 50px;
+    height: 20px;
+    background: lightsalmon;
+    position: relative;
+    left: 985px;
+    bottom: 680px;
+    border-radius: 40px;
+  }
+  .white-circle-three{
+    width: 50px;
+    height: 20px;
+    background: white;
+    position: relative;
+    left: 985px;
+    bottom: 680px;
+    border-radius: 40px;
+  }
